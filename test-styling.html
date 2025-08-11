@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-white to-pink-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-center text-primary-600 mb-8">Tailwind CSS is Working! 🎉</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl shadow-lg p-6 hover:scale-105 transform transition-all duration-300">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Card 1</h3>
+                <p class="text-gray-600">This card has Tailwind classes applied.</p>
+                <button class="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-colors">Button</button>
+            </div>
+            
+            <div class="bg-gradient-to-r from-purple-400 to-pink-400 rounded-2xl shadow-lg p-6 text-white hover:scale-105 transform transition-all duration-300">
+                <h3 class="text-xl font-semibold mb-4">Gradient Card</h3>
+                <p>Beautiful gradient background with Tailwind.</p>
+                <button class="mt-4 bg-white text-purple-600 px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors">Button</button>
+            </div>
+            
+            <div class="bg-yellow-50 border-2 border-yellow-200 rounded-2xl shadow-lg p-6 hover:scale-105 transform transition-all duration-300">
+                <h3 class="text-xl font-semibold text-yellow-800 mb-4">Border Card</h3>
+                <p class="text-yellow-700">Card with custom border and colors.</p>
+                <button class="mt-4 bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-lg transition-colors">Button</button>
+            </div>
+        </div>
+        
+        <div class="mt-12 text-center">
+            <p class="text-gray-600 mb-4">If you can see styled cards above, Tailwind CSS is working correctly!</p>
+            <p class="text-sm text-gray-500">Open this in a browser to see the styling</p>
+        </div>
+    </div>
+</body>
+</html>
